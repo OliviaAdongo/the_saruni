@@ -1,8 +1,12 @@
-import React from 'react'
+import './Amenities.css'
+import { useNavigate } from 'react-router-dom';
 
 function Courtyard() {
+  let navigate = useNavigate();
   return (
-    <div>Courtyard</div>
+    <div>Courtyard
+    <button  onClick={()=>{ navigate('/details')}}> check amenities at a glance</button>
+    </div>
   )
 }
 

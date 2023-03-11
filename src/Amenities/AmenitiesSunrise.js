@@ -1,8 +1,12 @@
-import React from 'react'
+import './Amenities.css'
+import { useNavigate } from 'react-router-dom';
 
 function AmenitiesSunrise() {
+  let navigate = useNavigate();
   return (
-    <div>AmenitiesSunrise</div>
+    <div>AmenitiesSunrise
+    <button  onClick={()=>{ navigate('/sunset')}}>Check the sunset</button>
+    </div>
   )
 }
 
