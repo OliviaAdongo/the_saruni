@@ -1,10 +1,12 @@
 import "./Neighborhood.css";
 import { useNavigate } from "react-router-dom";
+import Navbar from "../Navbar/Navbar";
 
 function Neighborhood() {
   let navigate = useNavigate();
   return (
     <div>
+    <div><Navbar/></div>
       <p>LOGO</p>
       <p>The Neighborhood</p>
       <p>AN EXCLUSIVE ADDRESS</p>

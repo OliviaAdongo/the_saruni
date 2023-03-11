@@ -1,8 +1,10 @@
 import React from "react";
+import Navbar from "../Navbar/Navbar";
 
 function NeighborhoodMap() {
   return (
     <div>
+    <div><Navbar/></div>
       <div>
         <p>
           GAIN CENTRAL CONNECTIVITY TO RETAIL, RECREATION & ESSENTIAL SERVICES
