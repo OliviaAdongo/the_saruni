@@ -1,6 +1,8 @@
 import './Home.css'
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
+  let navigate = useNavigate();
   return (
     <div className="homepage">
       <div className="toppart">Navigation bar</div>
@@ -9,7 +11,7 @@ function Home() {
         <h3>LUXURIOUS LOREM IPSUM LOREM IPSUM</h3>
       </div>
       <div className="scroller">
-      <button className='explore'>EXPLORE</button>
+      <button className='explore'  onClick={()=>{ navigate('/residencehomepage')}} >EXPLORE</button>
       <h6>Riverside drive in nairobi</h6>
       </div>
     </div>
