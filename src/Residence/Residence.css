@@ -1,6 +1,24 @@
-.left{
-    background-color: peachpuff;
+/* .mainn {
+  background-color: grey;
+  height: 100vh;
+} */
+.residence{
+background-color: grey;
+height: 100vh;
+display: flex;
 }
-.right{
-    background-color: pink;
+.left {
+  background-color: peachpuff;
+  width: 400px;
+  text-align: center;
+
+  
+}
+.right {
+  background-color: pink;
+  width: 600px;
+}
+.aptview{
+  height: 100vh;
+  width: 500px;
 }

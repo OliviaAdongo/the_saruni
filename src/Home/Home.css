@@ -1,7 +1,37 @@
-/* .homepage{
-    background-color: pink;
-    background-image: url('https://dr.savee-cdn.com/things/thumbnails/6/2/585082bbe7fb80171f5572.webp');
-} */
-.explore{
-    border: none;
+.homepage {
+  /* background-color: pink; */
+  height: 100vh;
+  width: 100vh;
+  background-image: url("https://i.pinimg.com/564x/1c/6a/cd/1c6acd5d2eb8830c198b1b763ca186f5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.explore {
+  border: none;
+}
+
+@font-face {
+  font-family: "Paragone";
+  src: url(/paragone-luxury-serif-font/Paragone/Paragone.ttf);
+}
+@font-face {
+  font-family: "Paragone2";
+  src: url(/paragone-luxury-serif-font/Paragone/Paragone.otf);
+}
+h1 {
+  font-family: "Paragone", sans-serif;
+}
+h3 {
+  font-family: "Paragone2";
+}
+.logo {
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+}
+.main-body{
+  margin-top: 30px;
+  margin-left: 50px;
+  color: white;
 }

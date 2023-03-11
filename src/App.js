@@ -9,7 +9,6 @@ import Courtyard from "./Amenities/Courtyard";
 import Gym from "./Amenities/Gym";
 import "./App.css";
 import Home from "./Home/Home";
-import Navbar from "./Navbar/Navbar";
 import Neighborhood from "./Neighborhood/Neighborhood";
 import NeighborhoodHomepage from "./Neighborhood/NeighborhoodHomepage";
 import NeighborhoodMap from "./Neighborhood/NeighborhoodMap";
@@ -22,7 +21,6 @@ import Residences from "./Residence/Residences";
 function App() {
   return (
     <Router>
-      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/residencehomepage" element={<ResidenceHomePage />} />
