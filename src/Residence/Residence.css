@@ -2,23 +2,38 @@
   background-color: grey;
   height: 100vh;
 } */
-.residence{
-background-color: grey;
-height: 100vh;
-display: flex;
+.residence {
+  background-color: grey;
+  height: 100vh;
+  display: flex;
 }
 .left {
   background-color: peachpuff;
   width: 400px;
   text-align: center;
-
-  
 }
 .right {
   background-color: pink;
   width: 600px;
 }
-.aptview{
+.aptview {
   height: 100vh;
   width: 500px;
+}
+/* STYLING OF RESIDENCE HOMEPAGE */
+.section2 {
+  /* background-color: pink; */
+  display: flex;
+  height: 100vh;
+}
+.residence-left {
+  background-color: pink;
+  width: 400px;
+}
+.residence-right {
+  background-color: peachpuff;
+}
+.viewsample{
+  width: 400px;
+  height: 100vh;
 }

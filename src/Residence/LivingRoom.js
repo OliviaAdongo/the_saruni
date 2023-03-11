@@ -1,11 +1,16 @@
 import { useNavigate } from "react-router-dom";
+import Navbar from "../Navbar/Navbar";
 
 
 function LivingRoom() {
   let navigate = useNavigate();
 
   return (
-    <div className="container">
+    <div>
+      <div>
+        <Navbar/>
+      </div>
+      <div className="container">
       <div className="living-left">
         <div className="top">
           <p>LOGO</p>
@@ -41,6 +46,7 @@ function LivingRoom() {
           navigate("/amenities");
         }}>Go To Amenities</button>
       </div>
+    </div>
     </div>
   );
 }

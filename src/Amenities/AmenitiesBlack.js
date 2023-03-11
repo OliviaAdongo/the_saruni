@@ -1,9 +1,14 @@
 import "./Amenities.css";
 import { useNavigate } from "react-router-dom";
+import Navbar from "../Navbar/Navbar";
 
 function AmenitiesBlack() {
   let navigate = useNavigate();
   return (
+   <div>
+    <div>
+      <Navbar/>
+    </div>
     <div className="parent-container-amenities">
       <div className="left-amenities">
         <p>LOGO</p>
@@ -23,6 +28,7 @@ function AmenitiesBlack() {
         </button>
       </div>
     </div>
+   </div>
   );
 }
 

@@ -1,9 +1,14 @@
 import "./Amenities.css";
 import { useNavigate } from "react-router-dom";
+import Navbar from "../Navbar/Navbar";
 
 function AmenitiesSunrise() {
   let navigate = useNavigate();
   return (
+   <div>
+    <div>
+      <Navbar/>
+    </div>
     <div>
       <div>
         <p>LOGO</p>
@@ -26,6 +31,7 @@ function AmenitiesSunrise() {
         Check the sunset
       </button>
     </div>
+   </div>
   );
 }
 
