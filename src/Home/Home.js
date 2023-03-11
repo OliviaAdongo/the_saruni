@@ -7,8 +7,10 @@ function Home() {
     <div className="homepage">
       <div className="toppart">Navigation bar</div>
       <div className="main body">
+      <p>Logo</p>
         <h1> THE SARUNI </h1>
-        <h3>LUXURIOUS LOREM IPSUM LOREM IPSUM</h3>
+        <h3>A LUXURIOUS SANCTUARY</h3>
+        <h6>nested in unparalleled tranquility</h6>
       </div>
       <div className="scroller">
       <button className='explore'  onClick={()=>{ navigate('/residencehomepage')}} >EXPLORE</button>

@@ -9,11 +9,11 @@ function ResidenceHomePage() {
       <div className="left">
         <p>logo</p>
         <h4>RESIDE IN LUXURY</h4>
-        <h5> surround lorem ipsum lorem ipsum</h5>
+        <h5> surrounded by spectacular views</h5>
         <button  onClick={()=>{ navigate('/residence')}}>THE RESIDENCES</button>
       </div>
       <div className="right">
-        <p>There is  an image here</p>
+        <p>There is  an image here right side</p>
       </div>
     </div>
   )

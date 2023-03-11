@@ -7,8 +7,8 @@ function AmenitiesHomePage() {
     <div className="amenities">
     <div className="left">
       <p>logo</p>
-      <h4>AMENITIES</h4>
-      <h5> surround lorem ipsum lorem ipsum</h5>
+      <h4>A LIFESTYLEE METICULOUSLY CURATED</h4>
+      <h5> for the most discerning urban connoiseur</h5>
       <button  onClick={()=>{ navigate('/amenities')}}>THE AMENITIES</button>
     </div>
     <div className="right">
