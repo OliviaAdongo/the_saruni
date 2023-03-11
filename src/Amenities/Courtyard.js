@@ -4,8 +4,9 @@ import { useNavigate } from 'react-router-dom';
 function Courtyard() {
   let navigate = useNavigate();
   return (
-    <div>Courtyard
-    <button  onClick={()=>{ navigate('/details')}}> check amenities at a glance</button>
+    <div>
+    <p>The Courtyard</p>
+    <button  onClick={()=>{ navigate('/details')}}> Check amenities at a glance</button>
     </div>
   )
 }
