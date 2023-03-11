@@ -1,8 +1,14 @@
-import React from 'react'
+import './Neighborhood.css'
+import { useNavigate } from 'react-router-dom';
 
 function Neighborhood() {
+
+  let navigate = useNavigate();
   return (
-    <div>Neighborhood</div>
+    <div>Neighborhood
+    
+    <button   onClick={()=>{ navigate('/map')}}>EXPLORE MORE go to map</button>
+    </div>
   )
 }
 
