@@ -1,7 +1,16 @@
-import React from 'react'
+import './Residence.css'
 
-export default function Residences() {
+function Residences() {
   return (
-    <div>Residences</div>
+    <div>
+      <div className='residence-left'>
+        <p>LOGO CARD</p>
+        <h2>LUXURY</h2>
+        <p>Lorem ipsums lorem ipsums lorem ipsums</p>
+      </div>
+      <div className='residence-right'></div>
+    </div>
   )
 }
+
+export default Residences
