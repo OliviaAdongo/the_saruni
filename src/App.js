@@ -40,7 +40,7 @@ function App() {
         {/* AMENITIES ROUTES */}
         <Route path="/amenities" element={<Amenities />} />
         <Route path="/sunrise" element={<AmenitiesSunrise />} />
-        <Route path="/aunset" element={<AmenitiesSunset />} />
+        <Route path="/sunset" element={<AmenitiesSunset />} />
         <Route path='/amenitiesblack'  element={<AmenitiesBlack/>}/>
         <Route path='/courtyard'  element={<Courtyard/>}/>
         <Route path='/gym'  element={<Gym/>}/>
