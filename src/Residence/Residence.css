@@ -1,25 +1,34 @@
-/* .mainn {
-  background-color: grey;
+.mainn {
+  /* background-color: grey; */
   height: 100vh;
-} */
+}
 .residence {
-  background-color: grey;
+  /* background-color: grey; */
   height: 100vh;
-  display: flex;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* gap: 10px; */
+  
 }
+/* Div styling */
 .left {
-  background-color: peachpuff;
-  width: 400px;
-  text-align: center;
+  /* background-color: peachpuff; */
+  text-align: center; 
+  padding: 50px; 
 }
-.right {
-  background-color: pink;
+.right-side-residence{
+  /* background: pink; */
   width: 600px;
+  
 }
-.aptview {
+.aptview{
   height: 100vh;
-  width: 500px;
 }
+.forstyle{
+  margin-top: 100px;
+}
+
 /* STYLING OF RESIDENCE HOMEPAGE */
 .section2 {
   /* background-color: pink; */
@@ -34,6 +43,6 @@
   background-color: peachpuff;
 }
 .viewsample{
-  width: 400px;
+  width: 100vh;
   height: 100vh;
 }

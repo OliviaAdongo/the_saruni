@@ -11,7 +11,11 @@ function Residences() {
       </div>
       <div className="section2">
         <div className="residence-left">
-          <p>LOGO CARD the residences</p>
+        <img
+              src="https://i.pinimg.com/564x/a0/b7/78/a0b7780d9b390e8fb9d71761ffa4e397.jpg"
+              alt="logo"
+              className="logo"
+            />
           <h2>LUXURY Units</h2>
           <h3>CAREFULLY CONSIDERED AND METICULOUSLY DESIGNED</h3>
           <h4>

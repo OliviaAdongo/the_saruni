@@ -1,7 +1,7 @@
 .homepage {
   /* background-color: pink; */
   height: 100vh;
-  width: 100vh;
+  width: 100%;
   background-image: url("https://i.pinimg.com/564x/1c/6a/cd/1c6acd5d2eb8830c198b1b763ca186f5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,4 +34,22 @@ h3 {
   margin-top: 30px;
   margin-left: 50px;
   color: white;
+}
+/* EXplore more section */
+.scroller{
+  /* background: pink; */
+  text-align: center;
+  height: 50px;
+  font-size: 20px;
+  font-size: 'Paragone';
+}
+.explore{
+  font-size: 20px;
+  background: white; 
+}
+.riverside{
+  /* background: pink; */
+  text-align: right;
+  font-size: 16px;
+  /* position: absolute; */
 }
